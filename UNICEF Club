@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKL UNICEF Club</title>
+</head>
+<body>
+    <main>
+        <!-- School Name -->
+        <div id="landing">
+          <div id="landing-text">
+            <div id="landing-text-inner">
+            <!--SCHOOL IMAGE-->
+    <div id="School-image">
+        <p><img src="https://bit.ly/3sqzwKZ"/></p>
+      </div>
+  <h4 class="h4">LKL UNICEF Club</h4>
+  <style>
+  body {
+    background-image: url("https://bit.ly/3TIrnP4");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-blend-mode: screen;
+    width:auto;
+    margin-bottom:5px;
+    font-size: 11px;
+    scroll-behavior: smooth;
+  }
+  </style>
+              <!-- Welcome Them-->
+              <h2>Welcome here, to our UNICEF Club, where our aim is to raise awareness about how important mental health as well as physical health is. This website is created to educate one another.</h2>
+              <nav>
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#aim">Aim</a></li>
+                  <li><a href="#yearlyplan">Plan</a></li>
+                  <li><a href="#members">Team</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </nav>
+            </div>
+          </div>
+          <div id="landing-image"></div>
+        </div>
+        
+       <div id="home">
+          <div id="header">
+            <h2>Home</h2>
+          </div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top"> Go To The Top</button>
+          <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+          
+          <img src="https://bit.ly/3k9hCZs" alt="">
+          <div class="caption">
+            <h3>What Exactly Is UNICEF?</h3>
+            <p>Firstly, UNICEF is known as United Nations Children's Fund. Second, let's talk about what the mission of UNICEF is. UNICEF stands for every child, everywhere, and therefore our mission is to mobilize and empower people around the world to invest in the positive transformation of every child's future.</p>
+          </div>
+          </div>
+         <div id="aim">
+          <div class="caption">
+            <h3>Our Aim</h3>
+            <p>Our Aim will be briefly described after watching this video, which is a speech given by Kim Nam Jun.</p>
+            <p><iframe width="1226" height="480" src="https://www.youtube.com/embed/oTe4f-bBEKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+          </div>
+          </div>
+          
+      <div id="yearlyplan">
+        <h3>Yearly Plan</h3>
+        <div class="mySlides"><p>Activity 1(Aesthetic DIY sale):<p>Sell handmade bracelets and phone chains using beads on New Year Bazaar.</p></p></div>
+        <div class="mySlides"><p>Activity 2(Paint the Pot):</P><P>Let students paint and decorate clay pots using acrylic paint and arranging different flowers and plants on OLE day.</p></div>
+            <div class="mySlides"><p>Activity 3(DIY dreamcatcher) </P><P>Use strings, metal or wooden hoops and decorations to create a DIY dreamcatcher on OLE day </p></div>
+  
+  <div class="mySlides"><p>Activity 4(Talk show by UNICEF HK):</P> <p>This talk show will be able to raise awareness on children and learn about UNICEF's emergency work and the needs of the affected population etc.</p></div>
+<div class="mySlides"><p>Activity 5(Candle Making):</P> <p>Use melted wax, mould, food colouring, and scents to let students customise their own candle.</p></div>
+      </div>
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+   <div id="members">
+    <h3>Our Team</h3>
+    <p><b>Chairlady:<li>Limbu Sikkum 5D(12)</li></b></p>
+    <p><b>Vice-Chairlady:<li>Sylva Chioma Sheryl 5C(20)</li>
+    <li>Aisha Saher 4B(21)</li></b></p>
+    <p><b>Treasurer:<li>Wang Zi Ying 4D(20)</li></b></p>
+    <p><b>IT Coordinator:<li>Wong Hoi Yiu 5C(25)</li></b></p>
+    <P><B>Secretary:<li>Samama 5D(18)</li></B></P>
+    <p><b>Recreation:<li>Saba Tariq 5D(17)</li></b></p>
+    <p><B>Art Designer:<li>Gurung Prachi 4B(8)</LI</B></p>
+    <p><b>General Affairs:<li>Tsang Wai 5D(22)</li></b></p>
+    <P><B>Committee:<li>Bibi Fatima 4B(4)</li>
+      <li>Chen Tsz Yin 4D(4)</li>
+<li>Liu Wang Hei 4D(14)</li>
+<li>Wong Ting Sum 4D(21)</li>
+      <li><b>Tsoi Pui Yu 5A(18)</b></li>
+<li>Gurung Vanessa 5B(10)</li>
+    <li>Chen Cheuk Ying 5D(2)</li></B>
+      <li><b>Liu Chau Yee 5D(13)</b></li>
+      <li><b>Thapa Magar Leena 5D(20)</b></li>
+      <li><b>Wong Tin Sin 5D(27)</b></li>
+      </p>
+    </div>
+    </div>
+      </main>
+    <div id="contact">
+      <footer>
+          <h3>Contact Us</h3>
+        <h4>Feel Free To Contact The Chairlady Of The Unicef Club If You Have Any Enquiry!</h4>
+        <p>You Can Surely Email Her Or Find Her In Rm 306</p>
+        <a href="https://e-mailer.link/100188416608">Email:lkl18052@lkl.edu.hk</a>
+       <div id="qr"> <img src="https://e-mailer.link/qr_mail.php?icon=1&url=https://e-mailer.link/100188416608&hash=3324855381" width="auto" height="auto"/></div>
+      </footer>
+      <footer>Made by Fatima-Tul-Zahra</footer>
+      </div>
+    </div>
+    <style>@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+        body {
+          font-family: 'Roboto Condensed', sans-serif;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-left: 10px;
+          margin-right: 10px;
+          height: auto;
+          scroll-behavior: smooth;
+        }
+        nav{
+          height:45px;
+          background-color:#008ac3;
+          width:auto;
+          border-radius:15px;
+          border-style:dotted dashed solid double;
+          margin-top: 15px;
+          margin-bottom:5px
+        }
+        nav ul{
+          list-style:none;
+          padding-left:0;
+          display:flex;
+          justify-content:center;
+          justify-content:space-around;
+          font-size: 18px;
+          margin-top:-1px;
+          margin-bottom:25px;
+          padding-top:10px;
+          background-color:#ffffff00;
+          font-family:barlow;
+        }
+        nav li:hover {
+          background-color:skyblue;
+          transition: background 1000ms ease;
+        }
+        nav a {
+          text-decoration-style:dotted;
+          color:black;
+          display:block;
+        }
+        
+        h1 {
+          font-weight: 400;
+          font-size: 30px;
+          margin: 5px;
+        }
+        
+        h2 {
+          font-weight: 100;
+          font-size: 18px;
+          text-transform: capitalize;
+          margin: 0;
+        }
+        
+        img {
+          display: block;
+          width: 100%;
+        }
+        
+        main {
+          max-width: 900px;
+          margin: auto;
+          box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.4),
+            -30px 0px 40px rgba(0, 0, 0, 0.4);
+        }
+        #html{
+            scroll-behaviour: smooth;
+        }
+        
+        #landing {
+          background: #fff;
+        }
+        
+        #landing-text {
+          display: flex;
+          flex: 0 1 40vw;
+          height: 50vh;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding-right: 1rem;
+          padding-left: 1rem;
+        }
+        
+        #landing-text h2 {
+          color: #888;
+        }
+        
+        #landing-image {
+          background: url(https://bit.ly/3l4H8j8);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 50vh;
+          flex: 0 1 60vw;
+          margin: 0;
+        }
+        .caption{
+          font-size: 30px;
+          
+        }
+        #yearlyplan{
+          text-align:center;
+          scroll-behavior: smooth;
+        }
+        h3{
+          font-size: 30px;
+          text-align: center;
+          border-left: dotted 1px #222;
+          border-right: dotted 1px #222;
+          display: inline-block;
+          padding-right: 1rem;
+          padding-left: 1rem;
+        }
+        .caption p{
+          font-size:27px;
+          color: #222222;
+        }
+        iframe{
+          display: block;
+          width: 100%;
+        }
+        #members{
+          font-size:25px;
+          list-style:square;
+          text-align:center;
+        }
+        
+        
+        
+        .btn:hover {
+          background: #f4f4f4;
+        }
+        
+        #header {
+          padding: 1.5rem;
+          text-align: center;
+          background: #333;
+          color: #fff;
+        }
+        
+        #header h2 {
+          border-left: dotted 1px #fff;
+          border-right: dotted 1px #fff;
+          display: inline-block;
+          padding-right: 1rem;
+          padding-left: 1rem;
+        }
+        h4{
+          font-size:15px;
+          margin:0px;
+          margin-bottom:10px;
+        }
+        
+        .caption {
+          padding: 0.8rem;
+          text-align: center;
+        }
+        
+        footer {
+          text-align: center;
+          padding: 2rem 1rem;
+          margin: auto;
+          color:black;
+          font-size:17px;
+          background: #008ac3;
+          width:100%;
+         }
+        
+        footer h3 {
+          font-size: 3rem;
+          margin-bottom: 0;
+          color:#222;
+          border-left: dotted 1px #333;
+          border-right: dotted 1px #333;
+          display: inline-block;
+          padding-right: 1rem;
+          padding-left: 1rem;
+          
+        }
+        #qr img{
+          width:100px;
+          height:100px;
+          align-content:left;
+          margin:0px;
+          margin-top:10px;
+          margin-left: 143px;
+        }
+        #contact h4{
+          font-size: 23px;
+          color:#222;
+        }
+        #contact p{
+          font-size:20px;
+          color:#222;
+        }
+        h5{
+          text-align: right;
+          font-size:15px;
+          text-align:bottom;
+        }
+        #yearlyplan p{
+                text-transform: uppercase;
+                text-align:center;
+                font-size:30px;
+                line-height:auto;
+                font-style:bold;     
+        }
+        * {box-sizing: border-box}
+        #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 40px;
+          right: 40px;
+          width: 60px;
+          height: 60px;
+          background: #fff url(up.png);
+          z-index: 100000;
+          font-size: 13px;
+          border-radius: 50%;
+          background-size: 40px;
+          background-position: center;
+          background-repeat: no-repeat;
+          outline: none;
+          background-color:black;
+          color: white;
+          cursor: pointer;
+          padding: 10px;
+          border-radius: 16px;
+          transition: 0.5s;
+        }
+        .scrollTop.active{
+            bottom: 40px;
+          visibility: visible;
+          opacity: 1;
+        }
+        #myBtn:hover {
+          background-color: #777777;
+          transition: background 0.8s ease;
+        }
+        
+        .dot-container {
+            text-align: center;
+            padding: 20px;
+            background: skyblue;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #999999;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.8s ease;
+        }
+        
+        /* Add a background color to the active dot/circle */
+        .active, .dot:hover {
+          background-color: #666666;
+        }
+        
+        #yearlyplan {
+          position: relative;
+          background:#1CABE2;
+        }
+        /* Slides */
+        .mySlides {
+          display: none;
+          padding: 20px;
+          text-align: center;
+          margin: 0px;
+        }
+        
+        
+        
+        /* Screen Sizes 500px and Up */
+        @media (min-width: 500px) {
+          #landing {
+            display: flex;
+            height: 100%;
+          }
+        
+          #landing-text {
+            height: 100vh;
+          }
+        
+          #landing-image {
+            height: 100vh;
+          }
+        }
+        html{
+          scroll-behavior: smooth;
+        }
+        
+        /* Screen Sizes 700px and Up */
+        @media (min-width: 700px) {
+          .btn {
+            padding: 1rem 3rem;
+          }
+        }
+        </style>
+</body>
+</html>
